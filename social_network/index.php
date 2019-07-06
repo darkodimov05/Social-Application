@@ -1,6 +1,16 @@
+#<?php
+#include("templates/header.php");
+#include("templates/content.php");
+#include("templates/footer.php");
+#include("login.php")
+#?>
+<!DOCTYPE html>
+<html>
+<body>
+
 <?php
-include("templates/header.php");
-include("templates/content.php");
-include("templates/footer.php");
-include("login.php")
+echo "My first PHP script!";
 ?>
+
+</body>
+</html>
